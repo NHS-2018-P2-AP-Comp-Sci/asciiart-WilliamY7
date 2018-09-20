@@ -15,3 +15,95 @@
  */
 
 // YOUR CODE GOES HERE :)
+
+public class ASCIIArt {
+
+	public static void main(String[] args) {
+		System.out.println("It's A  Canadaian Flag!");
+		ln();
+		empty();
+		ln();
+		empty();
+		ln();
+		body();
+		last();
+		ln();
+		last();
+		ln();
+		last();
+		ln();
+		empty();
+	}
+		
+	public static void sides() {
+		System.out.print("canadacanadacana");	
+	}
+	
+	public static void ln() {
+		System.out.println();
+	}
+	
+	public static void empty() {
+		sides();
+		System.out.print("                                     ");
+		sides();
+	}
+	
+	public static void last() {
+		sides();
+		System.out.print("                  c                  ");
+		sides();
+	}
+	
+	public static void body() {
+		sides();
+		System.out.print("                 / \\                 ");
+		sides();
+		ln();
+		sides();
+		System.out.print("                canad                ");
+		sides();
+		ln();
+		sides();
+		System.out.print("            ca nadacan ad            ");
+		sides();
+		ln();
+		sides();
+		System.out.print("             canadacanad             ");
+		sides();
+		ln();
+		sides();
+		System.out.print("           c anadacanada c           ");
+		sides();
+		ln();
+		sides();
+		System.out.print("      \\an ada canadacan ada ca/      ");
+		sides();
+		ln();
+		sides();
+		System.out.print("       canadacanadacanadacanad       ");
+		sides();
+		ln();
+		sides();
+		System.out.print("       canadacanadacanadacanad       ");
+		sides();
+		ln();
+		sides();
+		System.out.print("     canadacanadacanadacanadacan     ");
+		sides();
+		ln();
+		sides();
+		System.out.print("        canadacanadacanadacan        ");
+		sides();
+		ln();
+		sides();
+		System.out.print("          canadacanadacanad          ");
+		sides();
+		ln();
+		sides();
+		System.out.print("         canad   aca   nadac         ");
+		sides();
+		ln();
+	}
+	
+}
